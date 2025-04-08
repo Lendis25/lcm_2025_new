@@ -1,14 +1,30 @@
 {
-  "name": "lcm_2025",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+  "name": "lcm_2025_new",
+  "version": "1.0.0",
+  "main": "scripts.js",
+  "dependencies": {
+    "esbuild": "^0.25.2",
+    "nanoid": "^3.3.11",
+    "picocolors": "^1.1.1",
+    "postcss": "^8.5.3",
+    "rollup": "^4.39.0",
+    "source-map-js": "^1.2.1"
   },
   "devDependencies": {
-    "vite": "^6.2.0"
-  }
+    "vite": "^6.2.5"
+  },
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lendis25/lcm_2025_new.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lendis25/lcm_2025_new/issues"
+  },
+  "homepage": "https://github.com/Lendis25/lcm_2025_new#readme",
+  "description": ""
 }
