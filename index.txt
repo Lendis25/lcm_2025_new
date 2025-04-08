@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trayectoria Escolar Colegio Luis Cruz Martínez</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+</head>
+<body>
+    <header>
+        <h1>Trayectoria Escolar Colegio Luis Cruz Martínez</h1>
+        <p>Visualización de calificaciones y desempeño del colegio desde 2017 hasta 2024</p>
+    </header>
+
+    <!-- Sección de Datos Generales del Colegio -->
+    <section id="datos-generales">
+        <h2>Datos Generales del Colegio</h2>
+        <p>Promedio de calificaciones por asignatura y año</p>
+        <div id="grafico-promedios"></div>
+    </section>
+
+    <!-- Sección de Desempeño por Alumno -->
+    <section id="desempeno-alumno">
+        <h2>Desempeño de un Alumno</h2>
+        <p>Ingresa el RUT de un alumno para ver su desempeño en las asignaturas a lo largo de los años</p>
+        <input type="text" id="rut-alumno" placeholder="Ingrese RUT del alumno">
+        <button onclick="verDesempenoAlumno()">Ver Desempeño</button>
+        <div id="grafico-desempeno-alumno"></div>
+    </section>
+
+    <!-- Sección de Desempeño de un Curso -->
+    <section id="desempeno-curso">
+        <h2>Desempeño de un Curso a lo Largo de los Años</h2>
+        <p>Selecciona un curso para ver su evolución a través de los años</p>
+        <select id="curso-seleccionado">
+            <option value="1b_2017">1° Básico 2017</option>
+            <option value="2b
